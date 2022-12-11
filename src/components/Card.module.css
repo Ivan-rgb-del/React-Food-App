@@ -1,0 +1,42 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 70%;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.card {
+  display: flex;
+  padding: 20px;
+}
+
+.card img {
+  width: 230px;
+  height: 140px;
+  border: 5px solid goldenrod;
+  margin-right: 10px;
+}
+
+.titlePrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titlePrice h3 {
+  color: #333;
+  font-size: 24px;
+}
+
+.titlePrice p {
+  font-size: 18px;
+  color: goldenrod;
+}
+
+.desc {
+  width: 350px;
+  font-size: 20px;
+  color: darkgray;
+  margin-top: 20px;
+}

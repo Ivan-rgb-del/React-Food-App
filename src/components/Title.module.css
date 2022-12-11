@@ -1,0 +1,15 @@
+.title {
+  text-align: center;
+  font-size: 45px;
+  color: #333;
+  margin-top: 40px;
+}
+
+.line {
+  width: 120px;
+  height: 5px;
+  background: goldenrod;
+  margin: auto;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
